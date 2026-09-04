@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+/* ─── Premium Smooth Scrolling ─────────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ─── Custom Scrollbar ─────────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0f1a;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e3a5f;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #234e8f;
+}
+
+/* ─── Text Selection ───────────────────────────────────────────────────── */
+::selection {
+  background: rgba(59, 130, 246, 0.35);
+  color: #ffffff;
+}
+::-moz-selection {
+  background: rgba(59, 130, 246, 0.35);
+  color: #ffffff;
+}
+
+/* ─── Focus Styles ─────────────────────────────────────────────────────── */
+:focus-visible {
+  outline: 2px solid rgba(59, 130, 246, 0.7);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ─── Prevent FOUC ─────────────────────────────────────────────────────── */
+html, body, #root {
+  min-height: 100%;
+}
