@@ -1,5 +1,7 @@
 # TechZone - Premium E-Commerce Store
 
+**[Live demo](https://techzone-shop1.vercel.app)**
+
 A modern, premium e-commerce website for tech products featuring a stunning 3D scroll experience.
 
 ## Features
