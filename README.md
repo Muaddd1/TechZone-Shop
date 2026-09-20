@@ -31,7 +31,9 @@ npm run dev
 ## Build
 
 ```bash
-npm run build
+npm run build     # production build
+npm run preview   # serve the production build locally
+npm run lint      # lint with ESLint
 ```
 
 ## Pages
