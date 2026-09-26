@@ -23,6 +23,8 @@ A modern, premium e-commerce website for tech products featuring a stunning 3D s
 
 ## Quick Start
 
+Requires **Node.js 20.19+ or 22.12+** (Vite 8's minimum).
+
 ```bash
 npm install
 npm run dev
