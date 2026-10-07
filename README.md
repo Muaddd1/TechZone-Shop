@@ -19,6 +19,8 @@ A modern, premium e-commerce website for tech products featuring a stunning 3D s
 - Tailwind CSS v4
 - React Three Fiber + Three.js
 - GSAP ScrollTrigger
+- Lenis smooth scrolling
+- React Three Postprocessing (bloom and effects)
 - React Router
 
 ## Quick Start
