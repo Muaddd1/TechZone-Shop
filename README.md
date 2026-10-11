@@ -44,11 +44,27 @@ npm run lint      # lint with ESLint
 
 - `/` - Homepage with 3D iPhone hero
 - `/shop` - Product catalog with filters
+- `/product/:id` - Product detail page
 - `/about` - About page
 - `/blog` - Blog section
 - `/contact` - Contact form
 - `/login` - Login page
+- `/signup` - Sign-up page
 - `/cart` - Shopping cart
+
+## Project Structure
+
+```
+src/
+├── components/   # Navbar, 3D hero (HeroScene), phone showcase/carousel, AI chat button + panel
+├── context/      # CartContext (cart state)
+├── data/         # products.js (catalog data)
+├── hooks/        # useDeviceCapability (scales 3D quality to the device)
+├── pages/        # Home, Shop, ProductDetail, Cart, About, Blog, Contact, Login, SignUp
+├── utils/        # aiMock.js (offline shopping-assistant replies)
+├── App.jsx       # routes
+└── main.jsx      # entry
+```
 
 ## License
 
