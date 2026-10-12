@@ -56,7 +56,7 @@ npm run lint      # lint with ESLint
 
 ```
 src/
-├── components/   # Navbar, 3D hero (HeroScene), phone showcase/carousel, AI chat button + panel
+├── components/   # Navbar, AI chat button + panel (the 3D scenes live in pages/Home.jsx)
 ├── context/      # CartContext (cart state)
 ├── data/         # products.js (catalog data)
 ├── hooks/        # useDeviceCapability (scales 3D quality to the device)
